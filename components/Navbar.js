@@ -3,11 +3,11 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">
-        <h1>MyApp</h1>
+        <h1>Ninja List</h1>
       </div>
-      <Link href="/">Home</Link>
-      <Link href="/">About</Link>
-      <Link href="/">Ninja Listing</Link>
+      <Link href="/"><a>Home</a></Link>
+      <Link href="/About"><a>About</a></Link>
+      <Link href="/ninjas/"><a>Ninja Listing</a></Link>
     </nav>  
   );
 };
