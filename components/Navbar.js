@@ -5,9 +5,9 @@ const Navbar = () => {
       <div className="logo">
         <h1>MyApp</h1>
       </div>
-      <Link>Home</Link>
-      <Link>About</Link>
-      <Link>Ninja Listing</Link>
+      <Link href="/">Home</Link>
+      <Link href="/">About</Link>
+      <Link href="/">Ninja Listing</Link>
     </nav>  
   );
 };
